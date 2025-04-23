@@ -23,9 +23,9 @@ public class Exer05 {
 		if (media == 10) {
 			System.out.println("Aprovado com distinção");
 		} else if (media >= 7) {
-			System.out.println("Aprovado");
+			System.out.println("Aprovado ");
 		} else {
-			System.out.println("Reprovado");
+			System.out.println("Reprovado ");
 		}
 	}
 
