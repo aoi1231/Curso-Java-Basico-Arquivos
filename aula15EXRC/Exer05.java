@@ -15,17 +15,30 @@ public class Exer05 {
 		*/
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Primeiro nota parcial: ");
+<<<<<<< HEAD
 		double nota1 = scan.nextDouble();
 		System.out.println("Segunda nota parcial: ");
 		double nota2 = scan.nextDouble();
 		double media = (nota1 + nota2)/2;
+=======
+		int nota1 = scan.nextInt();
+		System.out.println("Segunda nota parcial: ");
+		int nota2 = scan.nextInt();
+		int media = (nota1 + nota2)/2;
+>>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
 		
 		if (media == 10) {
 			System.out.println("Aprovado com distinção");
 		} else if (media >= 7) {
+<<<<<<< HEAD
 			System.out.println("Aprovado ");
 		} else {
 			System.out.println("Reprovado ");
+=======
+			System.out.println("Aprovado");
+		} else {
+			System.out.println("Reprovado");
+>>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
 		}
 	}
 

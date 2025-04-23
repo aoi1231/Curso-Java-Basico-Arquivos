@@ -37,6 +37,7 @@ public class Exer25 {
 		int positivo = 0;
 		String classifi = "inocente";
 		
+<<<<<<< HEAD
 		if (resposta1.equalsIgnoreCase("sim")) {
 			positivo += 1;
 		}
@@ -50,6 +51,21 @@ public class Exer25 {
 			positivo += 1;
 		}
 		if (resposta5.equalsIgnoreCase("sim")) {
+=======
+		if (resposta1.equals("sim")) {
+			positivo += 1;
+		}
+		if (resposta2.equals("sim")) {
+			positivo += 1;
+		}
+		if (resposta3.equals("sim")) {
+			positivo += 1;
+		}
+		if (resposta4.equals("sim")) {
+			positivo += 1;
+		}
+		if (resposta5.equals("sim")) {
+>>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
 			positivo += 1;
 		}
 		

@@ -29,8 +29,13 @@ public class Exer11 {
 		int salario = scan.nextInt();
 		
 		int percentual = 0;
+<<<<<<< HEAD
 		double aumento = 0;
 		double novoSalario = 0;
+=======
+		int aumento = 0;
+		int novoSalario = 0;
+>>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
 		
 		if (salario <= 280) {
 			percentual = 20;
@@ -49,6 +54,12 @@ public class Exer11 {
 		System.out.println("O reajuste é de " + percentual + "%");
 		System.out.println("Seu aumento é de " + aumento + "R$.");
 		System.out.println("Seu novo salário é de " + novoSalario + "R$.");
+<<<<<<< HEAD
+=======
+		
+		
+		
+>>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
 
 	}
 

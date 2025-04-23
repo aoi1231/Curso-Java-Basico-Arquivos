@@ -1,7 +1,10 @@
 package com.nicolas.cursojava.aula15EXRC;
 
+<<<<<<< HEAD
 import java.util.Scanner;
 
+=======
+>>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
 public class Exer28 {
 
 	public static void main(String[] args) {
@@ -18,6 +21,7 @@ public class Exer28 {
 		apenas um dos tipos de carne da promoção, porém não há
 		limites para a quantidade de carne por cliente. 
 		
+<<<<<<< HEAD
 		Se compra for feita no cartão Tabajara o cliente receberá ainda um desconto de 0.05 sobre o total a compra. 
 		
 		Escreva um programa que peça o tipo e a quantidade de carne comprada pelo usuário e gere um cupom fiscal, 
@@ -80,6 +84,17 @@ public class Exer28 {
 			System.out.println("Valor do desconto: " + desconto + "R$, total a pagar: " + total + "R$.");
 			
 		}
+=======
+		Se compra for feita no cartão Tabajara o cliente receberá ainda um desconto de 5% sobre o total a compra. 
+		
+		Escreva um programa que peça o tipo e a quantidade de carne comprada pelo usuário e gere um cupom fiscal,
+		contendo as informações da compra: tipo e quantidade de carne, preço total, tipo de pagamento, valor do
+		desconto e valor a pagar.
+		*/
+		
+		
+
+>>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
 	}
 
 }

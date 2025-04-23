@@ -25,12 +25,21 @@ public class Exer18 {
 
 		Scanner scan = new Scanner(System.in);
 		
+<<<<<<< HEAD
 		System.out.println("Qual o dia? ");
 		int dia = scan.nextInt();
 		System.out.println("Qual o mês? ");
 		int mes = scan.nextInt();
 		System.out.println("Qual o ano? ");
 		int ano = scan.nextInt();
+=======
+		System.out.println("Qual o ano? ");
+		int ano = scan.nextInt();
+		System.out.println("Qual o mês? ");
+		int mes = scan.nextInt();
+		System.out.println("Qual o dia? ");
+		int dia = scan.nextInt();
+>>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
 		
 		int diasValidos = 0;
 		boolean bissexto;
@@ -74,8 +83,12 @@ public class Exer18 {
 				
 				//dia válido
 				if (dia <= diasValidos) {
+<<<<<<< HEAD
 					System.out.println("Data válida: " + dia + "/" + mes + "/" + ano);
 
+=======
+					System.out.println("Data válida.");
+>>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
 				} else {
 					System.out.println("Data inválida.");
 				}

@@ -10,7 +10,10 @@ public class Exer07 {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Me mande 3 numeros DIFERENTES");
+<<<<<<< HEAD
 		
+=======
+>>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
 		System.out.println("Primeiro numero: ");
 		int numero1 = scan.nextInt();
 		System.out.println("Segundo numero: ");
