@@ -37,19 +37,19 @@ public class Exer25 {
 		int positivo = 0;
 		String classifi = "inocente";
 		
-		if (resposta1.equals("sim")) {
+		if (resposta1.equalsIgnoreCase("sim")) {
 			positivo += 1;
 		}
-		if (resposta2.equals("sim")) {
+		if (resposta2.equalsIgnoreCase("sim")) {
 			positivo += 1;
 		}
-		if (resposta3.equals("sim")) {
+		if (resposta3.equalsIgnoreCase("sim")) {
 			positivo += 1;
 		}
-		if (resposta4.equals("sim")) {
+		if (resposta4.equalsIgnoreCase("sim")) {
 			positivo += 1;
 		}
-		if (resposta5.equals("sim")) {
+		if (resposta5.equalsIgnoreCase("sim")) {
 			positivo += 1;
 		}
 		

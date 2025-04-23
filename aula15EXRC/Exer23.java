@@ -12,7 +12,7 @@ public class Exer23 {
 		System.out.println("Me mande um numero inteiro ou decimal ");
 		double numero = scan.nextDouble();
 		
-		if (Math.round(numero) == numero) {
+		if (numero % 1 == 0) {
 			System.out.println("Seu numero é inteiro");
 		} else {
 			System.out.println("Seu numero é decimal ");

@@ -28,13 +28,13 @@ public class Exer26 {
 		String tipo = scan.next();
 		double valor = 0;
 		
-		if (tipo.equals("A")) {
+		if (tipo.equalsIgnoreCase("A")) {
 			if (litros > 20) {
 				valor = (litros*1.9) - (litros*1.9)*0.05;
 			} else {
 				valor = (litros*1.9) - (litros*1.9)*0.03;
 			}
-		} else if (tipo.equals("G")) {
+		} else if (tipo.equalsIgnoreCase("G")) {
 			if (litros > 20) {
 				valor = (litros*2.5) - (litros*2.5)*0.06;
 			} else {

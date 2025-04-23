@@ -15,10 +15,10 @@ public class Exer05 {
 		*/
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Primeiro nota parcial: ");
-		int nota1 = scan.nextInt();
+		double nota1 = scan.nextDouble();
 		System.out.println("Segunda nota parcial: ");
-		int nota2 = scan.nextInt();
-		int media = (nota1 + nota2)/2;
+		double nota2 = scan.nextDouble();
+		double media = (nota1 + nota2)/2;
 		
 		if (media == 10) {
 			System.out.println("Aprovado com distinção");

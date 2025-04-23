@@ -21,6 +21,7 @@ public class Exer24 {
 		double numero2 = scan.nextDouble();
 		System.out.println("Qual operação você deseja? (* / + -)");
 		String operacao = scan.next();
+		boolean valida = true;
 		
 		double numero = 0;
 		
@@ -29,33 +30,37 @@ public class Exer24 {
 		case "/": numero = numero1 / numero2; break;
 		case "+": numero = numero1 + numero2; break;
 		case "-": numero = numero1 - numero2; break;
-		default: System.out.println("Erro");
+		default: 
+			System.out.println("Erro");
+			valida = false;
 		}
 		
-		String inteDeci = "inteiro";
-		String parImpar = "par";
-		String negaPosi = "positivo";
+		if (valida = true) {
 		
-		if (Math.round(numero) == numero) {
-			inteDeci = "inteiro";
-		} else {
-			inteDeci = "decimal";
+			String inteDeci = "inteiro";
+			String parImpar = "par";
+			String negaPosi = "positivo";
+			
+			if (numero % 1 == 0) {
+				inteDeci = "inteiro";
+			} else {
+				inteDeci = "decimal";
+			}
+			
+			if (numero%2 == 0) {
+				parImpar = "par";
+			} else {
+				parImpar = "impar";
+			}
+			
+			if (numero >= 0) {
+				negaPosi = "positivo";
+			} else {
+				negaPosi = "negativo";
+			}
+			
+			System.out.println("O resultado " + numero + " é " + parImpar + ", " + negaPosi + " e " + inteDeci + ".");
 		}
-		
-		if (numero%2 == 0) {
-			parImpar = "par";
-		} else {
-			parImpar = "impar";
-		}
-		
-		if (numero >= 0) {
-			negaPosi = "positivo";
-		} else {
-			negaPosi = "negativo";
-		}
-		
-		System.out.println("O resultado " + numero + " é " + parImpar + ", " + negaPosi + " e " + inteDeci + ".");
-
 	}
 
 }

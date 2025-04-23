@@ -19,7 +19,7 @@ public class Exer17 {
 		
 		
 		if (ano%4 == 0) {
-			if (ano%100 == 0  && ano%400 != 0) {
+			if (ano%100 == 0  && ano% 400 != 0) {
 				System.out.println("Seu ano não é bissexto. ");
 			} else {
 				System.out.println("Seu ano é bissexto. ");

@@ -10,6 +10,7 @@ public class Exer06 {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Me mande 3 numeros DIFERENTES");
+		
 		System.out.println("Primeiro numero: ");
 		int numero1 = scan.nextInt();
 		System.out.println("Segundo numero: ");
