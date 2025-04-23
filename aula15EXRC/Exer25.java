@@ -38,6 +38,7 @@ public class Exer25 {
 		String classifi = "inocente";
 		
 <<<<<<< HEAD
+<<<<<<< HEAD
 		if (resposta1.equalsIgnoreCase("sim")) {
 			positivo += 1;
 		}
@@ -53,19 +54,26 @@ public class Exer25 {
 		if (resposta5.equalsIgnoreCase("sim")) {
 =======
 		if (resposta1.equals("sim")) {
+=======
+		if (resposta1.equalsIgnoreCase("sim")) {
+>>>>>>> 35a4fb4 (Correção completa!)
 			positivo += 1;
 		}
-		if (resposta2.equals("sim")) {
+		if (resposta2.equalsIgnoreCase("sim")) {
 			positivo += 1;
 		}
-		if (resposta3.equals("sim")) {
+		if (resposta3.equalsIgnoreCase("sim")) {
 			positivo += 1;
 		}
-		if (resposta4.equals("sim")) {
+		if (resposta4.equalsIgnoreCase("sim")) {
 			positivo += 1;
 		}
+<<<<<<< HEAD
 		if (resposta5.equals("sim")) {
 >>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
+=======
+		if (resposta5.equalsIgnoreCase("sim")) {
+>>>>>>> 35a4fb4 (Correção completa!)
 			positivo += 1;
 		}
 		

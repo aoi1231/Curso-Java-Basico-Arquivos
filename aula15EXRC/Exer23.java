@@ -13,10 +13,14 @@ public class Exer23 {
 		double numero = scan.nextDouble();
 		
 <<<<<<< HEAD
+<<<<<<< HEAD
 		if (numero % 1 == 0) {
 =======
 		if (Math.round(numero) == numero) {
 >>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
+=======
+		if (numero % 1 == 0) {
+>>>>>>> 35a4fb4 (Correção completa!)
 			System.out.println("Seu numero é inteiro");
 		} else {
 			System.out.println("Seu numero é decimal ");

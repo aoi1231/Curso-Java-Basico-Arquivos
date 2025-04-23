@@ -29,20 +29,28 @@ public class Exer26 {
 		double valor = 0;
 		
 <<<<<<< HEAD
+<<<<<<< HEAD
 		if (tipo.equalsIgnoreCase("A")) {
 =======
 		if (tipo.equals("A")) {
 >>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
+=======
+		if (tipo.equalsIgnoreCase("A")) {
+>>>>>>> 35a4fb4 (Correção completa!)
 			if (litros > 20) {
 				valor = (litros*1.9) - (litros*1.9)*0.05;
 			} else {
 				valor = (litros*1.9) - (litros*1.9)*0.03;
 			}
 <<<<<<< HEAD
+<<<<<<< HEAD
 		} else if (tipo.equalsIgnoreCase("G")) {
 =======
 		} else if (tipo.equals("G")) {
 >>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
+=======
+		} else if (tipo.equalsIgnoreCase("G")) {
+>>>>>>> 35a4fb4 (Correção completa!)
 			if (litros > 20) {
 				valor = (litros*2.5) - (litros*2.5)*0.06;
 			} else {

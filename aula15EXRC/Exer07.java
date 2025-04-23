@@ -11,9 +11,13 @@ public class Exer07 {
 		
 		System.out.println("Me mande 3 numeros DIFERENTES");
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
 =======
 >>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
+=======
+		
+>>>>>>> 35a4fb4 (Correção completa!)
 		System.out.println("Primeiro numero: ");
 		int numero1 = scan.nextInt();
 		System.out.println("Segundo numero: ");

@@ -22,9 +22,13 @@ public class Exer24 {
 		System.out.println("Qual operação você deseja? (* / + -)");
 		String operacao = scan.next();
 <<<<<<< HEAD
+<<<<<<< HEAD
 		boolean valida = true;
 =======
 >>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
+=======
+		boolean valida = true;
+>>>>>>> 35a4fb4 (Correção completa!)
 		
 		double numero = 0;
 		
@@ -33,6 +37,7 @@ public class Exer24 {
 		case "/": numero = numero1 / numero2; break;
 		case "+": numero = numero1 + numero2; break;
 		case "-": numero = numero1 - numero2; break;
+<<<<<<< HEAD
 <<<<<<< HEAD
 		default: 
 			System.out.println("Erro");
@@ -67,17 +72,40 @@ public class Exer24 {
 		}
 =======
 		default: System.out.println("Erro");
+=======
+		default: 
+			System.out.println("Erro");
+			valida = false;
+>>>>>>> 35a4fb4 (Correção completa!)
 		}
 		
-		String inteDeci = "inteiro";
-		String parImpar = "par";
-		String negaPosi = "positivo";
+		if (valida = true) {
 		
-		if (Math.round(numero) == numero) {
-			inteDeci = "inteiro";
-		} else {
-			inteDeci = "decimal";
+			String inteDeci = "inteiro";
+			String parImpar = "par";
+			String negaPosi = "positivo";
+			
+			if (numero % 1 == 0) {
+				inteDeci = "inteiro";
+			} else {
+				inteDeci = "decimal";
+			}
+			
+			if (numero%2 == 0) {
+				parImpar = "par";
+			} else {
+				parImpar = "impar";
+			}
+			
+			if (numero >= 0) {
+				negaPosi = "positivo";
+			} else {
+				negaPosi = "negativo";
+			}
+			
+			System.out.println("O resultado " + numero + " é " + parImpar + ", " + negaPosi + " e " + inteDeci + ".");
 		}
+<<<<<<< HEAD
 		
 		if (numero%2 == 0) {
 			parImpar = "par";
@@ -94,6 +122,8 @@ public class Exer24 {
 		System.out.println("O resultado " + numero + " é " + parImpar + ", " + negaPosi + " e " + inteDeci + ".");
 
 >>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
+=======
+>>>>>>> 35a4fb4 (Correção completa!)
 	}
 
 }

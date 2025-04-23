@@ -20,10 +20,14 @@ public class Exer17 {
 		
 		if (ano%4 == 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			if (ano%100 == 0  && ano% 400 != 0) {
 =======
 			if (ano%100 == 0  && ano%400 != 0) {
 >>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
+=======
+			if (ano%100 == 0  && ano% 400 != 0) {
+>>>>>>> 35a4fb4 (Correção completa!)
 				System.out.println("Seu ano não é bissexto. ");
 			} else {
 				System.out.println("Seu ano é bissexto. ");
