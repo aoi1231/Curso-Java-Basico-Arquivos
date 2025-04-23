@@ -31,6 +31,7 @@ public class Exer05 {
 			System.out.println("Aprovado com distinção");
 		} else if (media >= 7) {
 <<<<<<< HEAD
+<<<<<<< HEAD
 			System.out.println("Aprovado ");
 		} else {
 			System.out.println("Reprovado ");
@@ -39,6 +40,11 @@ public class Exer05 {
 		} else {
 			System.out.println("Reprovado");
 >>>>>>> 000ee0e (Refazendo uploads so que em .java e não em .class)
+=======
+			System.out.println("Aprovado ");
+		} else {
+			System.out.println("Reprovado ");
+>>>>>>> fcc2f5d (Test)
 		}
 	}
 
