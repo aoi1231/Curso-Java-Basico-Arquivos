@@ -25,12 +25,12 @@ public class Exer12 {
 		
 		int tabuada = 1;
 		
-		//if (num<11 && num >0) {
+		if (num<11 && num >0) {
 			System.out.println("Tabuada de " + num + ":");
 			for (; tabuada < 11; tabuada += 1) {
 				System.out.println(num + " X " + tabuada + " = " + num*tabuada);
 			}
-		//}
+		}
 
 	}
 
