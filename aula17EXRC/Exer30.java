@@ -27,6 +27,7 @@ public class Exer30 {
 		for (int i = 1; i<51; i++) {
 			System.out.println(i+" - R$ "+ (0.18*i));
 		}
+		scan.close();
 
 	}
 

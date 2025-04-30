@@ -25,6 +25,7 @@ public class Exer14 {
 		
 		
 		System.out.println("Quantidade de numero pares: " + par + ". Quantidade de numeros ímpares: " + impar + ".");
+		scan.close();
 	}
 
 }

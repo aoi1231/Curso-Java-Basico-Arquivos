@@ -1,5 +1,6 @@
 package com.nicolas.cursojava.aula17EXRC;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class Exer38 {
@@ -25,25 +26,35 @@ public class Exer38 {
 		//29 vezes
 		
 		Scanner scan = new Scanner(System.in);
+		DecimalFormat format = new DecimalFormat ("###,###.##");
 		
 		double n = 0.015;
+		double salario = 1000;
 		
-		for (int i = 1; i<=29; i++) {
+		salario += salario * n;
+		for (int i = 1997; i<=2025; i++) {
 			n *= 2;
+			salario += salario*n;
 		}
 		
-		double salarioInicial = 1000*n;
-		System.out.println("O salário, do funcionario de 1995, atualmente é de: R$ " + salarioInicial + ".");
-		System.out.println("O aumento foi de: " + n + "%.");
+		System.out.println("O salário, do funcionario de 1995, atualmente é de: R$ " + format.format(salario) + ".");
+		System.out.println("O aumento foi de: " + (n*100) + "%.");
 		
-		
+		//Alterado
 		System.out.println("Insira um salário: ");
-		salarioInicial = scan.nextDouble();
-		double salario = salarioInicial*n;
-		System.out.println("Seu salário atualmente é de: R$ " + salario + ".");
-		System.out.println("O aumento foi de: " + n + "%.");
+		salario = scan.nextDouble();
+		n = 0.015;
 		
+		salario += salario * n;
+		for (int i = 1997; i<=2025; i++) {
+			n *= 2;
+			salario += salario*n;
+		}
+		
+		System.out.println("Seu salário atualmente é de: R$ " + format.format(salario) + ".");
+		System.out.println("O aumento foi de: " + (n*100) + "%.");
 
+		scan.close();
 	}
 
 }

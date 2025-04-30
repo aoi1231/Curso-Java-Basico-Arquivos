@@ -28,7 +28,7 @@ public class Exer28 {
 		
 		double media = soma/n;
 		System.out.println("A média de gasto por cd é: " + media + "R$.");
-
+		scan.close();
 	}
 
 }

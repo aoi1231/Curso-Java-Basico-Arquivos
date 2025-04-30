@@ -19,29 +19,33 @@ public class Exer39 {
 		
 		Scanner scan = new Scanner(System.in);
 		
+		int numero = 0;
 		int alunoBaixo = 0;
-		double menor = Integer.MAX_VALUE;
+		int menor = Integer.MAX_VALUE;
 		int alunoAlto = 0;
-		double maior = Integer.MIN_VALUE;
-		double altura = 0;
+		int maior = Integer.MIN_VALUE;
+		int altura = 0;
 		
 		for (int i = 1; i<=10; i++) {
-			System.out.println("Me fale a altura do aluno Nº" + i);
-			altura = scan.nextDouble();
+			System.out.println("Me fale o número do aluno Nº " + i);
+			numero = scan.nextInt();
+			System.out.println("Me fale a altura (em cm) do aluno Nº " + i);
+			altura = scan.nextInt();
+			
 			
 			if (altura > maior) {
-				alunoAlto = i;
+				alunoAlto = numero;
 				maior = altura;
 			}
 			if (altura < menor) {
-				alunoBaixo = i;
+				alunoBaixo = numero;
 				menor = altura;
 			}
 		}
 		
-		System.out.println("O aluno mais baixo foi o Nº" + alunoBaixo + ", com " + menor + " metros de altura.");
-		System.out.println("Já o aluno mais alto foi o Nº" + alunoAlto + ", com " + maior + " metros de altura.");
-
+		System.out.println("O aluno mais baixo foi o aluno de Nº " + alunoBaixo + ", com " + menor + " centímetros de altura.");
+		System.out.println("Já o aluno mais alto foi o aluno de Nº " + alunoAlto + ", com " + maior + " centímetros de altura.");
+		scan.close();
 	}
 
 }

@@ -38,10 +38,8 @@ public class Exer27 {
 		} 
 		
 		double media = estudantes/turmas;
-		String turma = "jovem";
-		
 		System.out.println("A média de estudantes por turma é de " + media + " estudantes.");
-
+		scan.close();
 	}
 
 }

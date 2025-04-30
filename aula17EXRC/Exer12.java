@@ -32,6 +32,7 @@ public class Exer12 {
 			}
 		}
 
+		scan.close();
 	}
 
 }

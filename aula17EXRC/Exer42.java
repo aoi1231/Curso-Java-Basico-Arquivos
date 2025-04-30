@@ -12,7 +12,6 @@ public class Exer42 {
 		A entrada de dados deverá terminar quando for lido um número negativo.
 		*/
 		
-		boolean parar = false;
 		int numero = 0;
 		Scanner scan = new Scanner(System.in);
 		int a = 0;
@@ -33,15 +32,12 @@ public class Exer42 {
 			} else if (numero >= 76 && numero <=100) {
 				d++;
 			}
-			
-			if (numero < 0) {
-				parar = true;
-			}
-		} while (!parar);
+		} while (numero >= 0);
 		
 		System.out.print("Estão nos seguintes intervalos: ");
 		System.out.print("[0-25] = " + a + ", [26-50] = " + b + ", [51-75] = " + c + ", [76-100] = " + d + ".");
 
+		scan.close();
 	}
 
 }

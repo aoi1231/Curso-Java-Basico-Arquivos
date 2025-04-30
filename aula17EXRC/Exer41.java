@@ -49,6 +49,8 @@ public class Exer41 {
 			parcela +=3;
 			percent += 5;
 		}
+		
+		scan.close();
 	}
 
 }

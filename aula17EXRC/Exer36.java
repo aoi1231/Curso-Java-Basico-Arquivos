@@ -29,24 +29,31 @@ public class Exer36 {
 		
 		System.out.print("Montar a tabuada de: ");
 		int num = scan.nextInt();
+		boolean invalido = true;
+		int cmc;
+		int fim;
 		
-		System.out.print("Começar por: ");
-		int cmc = scan.nextInt();
-		
-		System.out.print("Terminar em: ");
-		int fim = scan.nextInt();
-		
-		int tabuada = 1;
-		
-		if (fim>cmc) {
-			System.out.print("\r\n Vou montar a tabuada de "+num+" começando em "+cmc+" e terminando em "+fim+":");
-			cmc -=1;
-			for (; cmc <= fim; cmc += 1) {
-				System.out.println(num + " X " + cmc + " = " + num*cmc);
+		do {
+			System.out.print("Começar por: ");
+			cmc = scan.nextInt();
+
+			System.out.print("Terminar em: ");
+			fim = scan.nextInt();
+			
+			if (fim>=cmc) {
+				invalido = false;
+			} else {
+				System.out.print("Erro! O fim não pode ser menor que o início.");
 			}
-		} else {
-			System.out.print("Erro! O fim não pode ser menor que o início.");
+		} while (invalido);
+		
+		System.out.print("\r\nVou montar a tabuada de " + num + " começando em " + cmc + " e terminando em " + fim + ":");
+		cmc -= 1;
+		for (; cmc <= fim; cmc++) {
+			System.out.println(num + " X " + cmc + " = " + num * cmc);
 		}
+
+		scan.close();
 	}
 
 }

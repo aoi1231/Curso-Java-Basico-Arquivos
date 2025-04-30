@@ -33,7 +33,6 @@ public class Exer43 {
 		double preco = 0;
 		double calculo = 0;
 		double total = 0;
-		String pedido;
 		String comprovante = "\r\nComprovante \r\n";
 		
 		do {
@@ -69,6 +68,7 @@ public class Exer43 {
 		} while(item != 0);
 		System.out.print(comprovante + "Total: R$ " + total);
 		
+		scan.close();
 	}
 
 }

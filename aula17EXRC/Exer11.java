@@ -29,6 +29,7 @@ public class Exer11 {
 		
 		
 
+		scan.close();
 	}
 
 }

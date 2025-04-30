@@ -74,7 +74,8 @@ public class Exer44 {
 		System.out.println("Percentagem de votos nulos sobre o total de votos: " + calculo + "%.");
 		calculo = ((double)brancos/total)*100;
 		System.out.println("Percentagem de votos em branco sobre o total de votos: " + calculo + "%.");
-
+		
+		scan.close();
 	}
 
 }

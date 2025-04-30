@@ -126,6 +126,7 @@ public class Exer03 {
 		System.out.println("Sexo: " + sexo);
 		System.out.println("Estado civil: " + eC);
 
+		scan.close();
 	}
 
 }

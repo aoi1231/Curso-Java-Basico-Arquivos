@@ -59,6 +59,7 @@ public class Exer37 {
 
 		System.out.println(output);
 
+		scan.close();
 	}
 
 }

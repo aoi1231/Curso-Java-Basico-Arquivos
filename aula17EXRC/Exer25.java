@@ -34,7 +34,7 @@ public class Exer25 {
 		
 		System.out.println("A média de idade da turma de " + n + " pessoas é: " +  media + ". Portanto, a turma é " + turma + ".");
 
-
+		scan.close();
 	}
 
 }

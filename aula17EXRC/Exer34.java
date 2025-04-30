@@ -27,6 +27,7 @@ public class Exer34 {
 		} else {
 			System.out.println("não é um número primo");
 		}
+		scan.close();
 	}
 
 }

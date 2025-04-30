@@ -30,7 +30,7 @@ public class Exer32 {
 		}
 		
 		System.out.println("1 = " + processo);
-
+		scan.close();
 	}
 
 }

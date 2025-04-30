@@ -36,6 +36,7 @@ public class Exer19 {
 			System.out.println("O menor número digitado foi: " + menor);
 			System.out.println("A soma dos valores foi: " + soma);
 		}
+		scan.close();
 	}
 
 }

@@ -84,7 +84,8 @@ public class Exer05 {
 		System.out.println("População A: " + a);
 		System.out.println("População B: " + b);
 		System.out.println("Levaria " + anos + " anos.");
-
+		
+		scan.close();
 	}
 
 }

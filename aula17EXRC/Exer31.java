@@ -78,6 +78,7 @@ public class Exer31 {
 	        }
 	           
 	    }while(!sair);  
+	    scan.close();
 	}
 
 }

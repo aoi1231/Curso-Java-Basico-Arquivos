@@ -36,7 +36,7 @@ public class Exer26 {
 		System.out.println("Candidato B: " + b + " votos.");
 		System.out.println("Candidato C: " + c + " votos.");
 
-
+		scan.close();
 	}
 
 }

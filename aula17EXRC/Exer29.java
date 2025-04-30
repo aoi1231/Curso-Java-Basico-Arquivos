@@ -33,7 +33,7 @@ public class Exer29 {
 		}
 		
 		
-		
+		scan.close();
 
 	}
 

@@ -29,6 +29,8 @@ public class Exer15 {
 			System.out.print(num + " ");
 		}
 		
+		scan.close();
+		
 		
 	}
 

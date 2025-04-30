@@ -36,6 +36,7 @@ public class Exer33 {
 		System.out.println("Menor temperatura: " + menor);
 		System.out.println("Maior temperatura: " + maior);
 		System.out.println("Média de temperatura: " + soma/n);
+		scan.close();
 	}
 
 }

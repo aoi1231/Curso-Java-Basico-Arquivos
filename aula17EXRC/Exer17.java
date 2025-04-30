@@ -31,7 +31,7 @@ public class Exer17 {
 			resultado = nAnt;
 		}
 		System.out.print(resultado);
-
+		scan.close();
 	}
 
 }

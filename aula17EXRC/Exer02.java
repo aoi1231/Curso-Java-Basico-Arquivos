@@ -39,6 +39,7 @@ public class Exer02 {
 		
 		System.out.println("Perfeito");
 
+		scan.close();
 	}
 
 }

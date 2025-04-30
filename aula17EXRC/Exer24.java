@@ -25,7 +25,7 @@ public class Exer24 {
 		
 		double media = notas/n;
 		System.out.println("A média aritimética de " + n + " notas é: " +  media + ".");
-
+		scan.close();
 	}
 
 }

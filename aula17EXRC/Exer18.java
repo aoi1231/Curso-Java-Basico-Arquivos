@@ -40,6 +40,7 @@ public class Exer18 {
 		System.out.println("A soma dos valores foi: " + soma);
 		
 
+		scan.close();
 	}
 
 }

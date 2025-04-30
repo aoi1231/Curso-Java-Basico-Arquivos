@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class Exer10 {
 
 	public static void main(String[] args) {
+		/*
+		 * 10.Faça um programa que receba dois números inteiros e gere os
+		números inteiros que estão no intervalo compreendido por eles.
+		 */
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Numero inteiro 1:");
@@ -12,14 +16,18 @@ public class Exer10 {
 		System.out.println("Numero inteiro 2:");
 		int num2 = scan.nextInt();
 
-		while (num1-1 > num2) {
-			num2 += 1;
-			System.out.println(num2);
-		}
-		while (num2-1 > num1) {
-			num1 += 1;
-			System.out.println(num1);
-		}
+        if (num1 > num2) {
+            int temp = num1;
+            num1 = num2;
+            num2 = temp;
+        }
+
+        for (int i = num1 + 1; i < num2; i++) {
+            System.out.println(i);
+        }
+
+        scan.close();
+		scan.close();
 	}
 
 }

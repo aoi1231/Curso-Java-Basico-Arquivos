@@ -28,6 +28,8 @@ public class Exer21 {
 			System.out.println("não é um número primo");
 		}
 		
+		scan.close();
+		
 	}
 
 }

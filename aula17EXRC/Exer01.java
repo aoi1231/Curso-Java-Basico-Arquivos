@@ -27,6 +27,8 @@ public class Exer01 {
 			}
 
 		} while (!teste);
+		
+		scan.close();
 	}
 
 }

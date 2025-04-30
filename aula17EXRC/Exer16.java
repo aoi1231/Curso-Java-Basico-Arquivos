@@ -8,7 +8,6 @@ public class Exer16 {
 		0,1,1,2,3,5,8,13,21,34,55,... Faça um programa que gere a série até
 		que o valor seja maior que 500.
 		*/
-		int n = 15;	
 		int numant= 1;
 		int num = 1;
 		int result = 0;
@@ -22,7 +21,6 @@ public class Exer16 {
 			
 			System.out.print(num + " ");
 		}
-
 	}
 
 }

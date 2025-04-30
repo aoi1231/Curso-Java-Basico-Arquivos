@@ -26,6 +26,7 @@ public class Exer13 {
 		
 		System.out.println("O numero " + numero + " elevado á " + expoente + " é igual a " + base);
 
+		scan.close();
 	}
 
 }

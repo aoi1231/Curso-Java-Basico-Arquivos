@@ -38,7 +38,7 @@ public class Exer35 {
 		} else {
 			System.out.println("Erro, o numero precisa ser a partir de 1.");
 		}
-
+		scan.close();
 	}
 
 }
