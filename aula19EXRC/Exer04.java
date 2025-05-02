@@ -1,5 +1,7 @@
 package com.nicolas.cursojava.aula19EXRC;
 
+import java.text.DecimalFormat;
+
 public class Exer04 {
 
 	public static void main(String[] args) {
@@ -10,6 +12,8 @@ public class Exer04 {
 		B[i] = sqrt(A[i]). 
 		
 		*/
+		DecimalFormat df = new DecimalFormat("###,###.###");
+		
 		int[] A = new int [15];
 		A[0] = 1;
 		A[1] = 2;
@@ -26,11 +30,11 @@ public class Exer04 {
 		A[12] = 13;
 		A[13] = 14;
 		A[14] = 15;
-		int[] B = new int [15];
+		double[] B = new double [A.length];
 		
 		for (int i = 0; i<A.length; i++) {
-			B[i] = (int) Math.sqrt(A[i]);
-			System.out.println(B[i]);
+			B[i] = Math.sqrt(A[i]);
+			System.out.println(df.format(B[i]));
 		}
 	}
 

@@ -1,5 +1,7 @@
 package com.nicolas.cursojava.aula19EXRC;
 
+import java.text.DecimalFormat;
+
 public class Exer09 {
 
 	public static void main(String[] args) {
@@ -10,6 +12,7 @@ public class Exer09 {
 		C[i] = A[i] / float(B[i]).
 
 		*/
+		DecimalFormat df = new DecimalFormat("###,###.##");
 		
 		int[] A = new int [10];
 		A[0] = 1;
@@ -22,22 +25,22 @@ public class Exer09 {
 		A[7] = 8;
 		A[8] = 9;
 		A[9] = 10;
-		int[] B = new int [10];
-		B[0] = 1;
-		B[1] = 2;
-		B[2] = 3;
-		B[3] = 4;
-		B[4] = 5;
-		B[5] = 6;
-		B[6] = 7;
-		B[7] = 8;
-		B[8] = 9;
+		int[] B = new int [A.length];
+		B[0] = 2;
+		B[1] = 3;
+		B[2] = 4;
+		B[3] = 5;
+		B[4] = 6;
+		B[5] = 7;
+		B[6] = 8;
+		B[7] = 9;
+		B[8] = 10;
 		B[9] = 10;
-		float[] C = new float [10];
+		float[] C = new float [A.length];
 		
 		for (int i = 0; i<A.length; i++) {
 			C[i] = A[i] / (float)(B[i]);
-			System.out.println(C[i]);
+			System.out.println(df.format(C[i]));
 		}
 
 	}

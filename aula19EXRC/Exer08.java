@@ -20,7 +20,7 @@ public class Exer08 {
 		A[7] = 8;
 		A[8] = 9;
 		A[9] = 10;
-		int[] B = new int [10];
+		int[] B = new int [A.length];
 		B[0] = 1;
 		B[1] = 2;
 		B[2] = 3;
@@ -31,7 +31,7 @@ public class Exer08 {
 		B[7] = 8;
 		B[8] = 9;
 		B[9] = 10;
-		int[] C = new int [10];
+		int[] C = new int [A.length];
 		
 		for (int i = 0; i<A.length; i++) {
 			C[i] = A[i] * B[i];

@@ -14,7 +14,7 @@ public class Exer01 {
 		A[2] = 3;
 		A[3] = 4;
 		A[4] = 5;
-		int[] B = new int [5];
+		int[] B = new int [A.length];
 		
 		for (int i = 0; i<A.length; i++) {
 			B[i] = A[i];

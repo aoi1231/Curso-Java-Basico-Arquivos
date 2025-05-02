@@ -22,7 +22,7 @@ public class Exer05 {
 		A[7] = 8;
 		A[8] = 9;
 		A[9] = 10;
-		int[] B = new int [10];
+		int[] B = new int [A.length];
 		
 		for (int i = 0; i<A.length; i++) {
 			B[i] = A[i] * i;
