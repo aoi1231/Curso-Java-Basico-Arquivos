@@ -1,5 +1,7 @@
 package com.nicolas.cursojava.aula19EXRC;
 
+import java.util.Scanner;
+
 public class Exer18 {
 
 	public static void main(String[] args) {
@@ -8,30 +10,26 @@ public class Exer18 {
 		de um grupo de pessoas. Escreva um programa que determine e
 		escreva a menor e a maior idades e suas respectivas posições.
 		*/
-		int[] A = new int [10];
-		A[0] = 6;
-		A[1] = 7;
-		A[2] = 8;
-		A[3] = 2;
-		A[4] = 14;
-		A[5] = 20;
-		A[6] = 40;
-		A[7] = 50;
-		A[8] = 45;
-		A[9] = 60;
+		int[] idades = new int [10];
+		Scanner scan = new Scanner(System.in);
+		
+		for (int i =0; i<idades.length; i++) {
+			System.out.println("Idade da pessoa Nº " + (i+1));
+			idades[i] = scan.nextInt();
+		}
 		
 		int menor = Integer.MAX_VALUE;
 		int posMenor = 0;
 		int maior = Integer.MIN_VALUE;
 		int posMaior = 0;
 		
-		for (int i = 0; i<A.length; i++) {
-			if (A[i] > maior) {
-				maior = A[i];
+		for (int i = 0; i<idades.length; i++) {
+			if (idades[i] > maior) {
+				maior = idades[i];
 				posMaior = i;
 			} 
-			if (A[i] < menor) {
-				menor = A[i];
+			if (idades[i] < menor) {
+				menor = idades[i];
 				posMenor = i;
 			} 
 		}

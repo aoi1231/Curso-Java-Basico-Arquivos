@@ -1,5 +1,7 @@
 package com.nicolas.cursojava.aula19EXRC;
 
+import java.util.Scanner;
+
 public class Exer17 {
 
 	public static void main(String[] args) {
@@ -9,18 +11,13 @@ public class Exer17 {
 		escreva a quantidade de pessoas que possuem idade superior a 35
 		anos.
 		*/
+		Scanner scan = new Scanner(System.in);
 		int[] A = new int [10];
-		A[0] = 6;
-		A[1] = 7;
-		A[2] = 8;
-		A[3] = 2;
-		A[4] = 14;
-		A[5] = 20;
-		A[6] = 40;
-		A[7] = 50;
-		A[8] = 45;
-		A[9] = 60;
 		
+		for (int i =0; i<A.length; i++) {
+			System.out.println("Idade da pessoa Nº " + (i+1));
+			A[i] = scan.nextInt();
+		}
 		int qtSuperior = 0;
 		
 		for (int i = 0; i<A.length; i++) {
@@ -29,7 +26,7 @@ public class Exer17 {
 			} 
 		}
 
-		System.out.println(qtSuperior+" é a quantidade de pessoas com idade superiores a 15.");
+		System.out.println(qtSuperior+" é a quantidade de pessoas com idade superiores a 35.");
 	}
 
 }

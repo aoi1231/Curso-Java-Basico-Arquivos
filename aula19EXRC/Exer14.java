@@ -19,14 +19,17 @@ public class Exer14 {
 		A[7] = 8;
 		A[8] = 9;
 		A[9] = 10;
+		
 		int soma = 0;
 		int impares = 0;
+		
 		for (int i = 0; i<A.length; i++) {
 			if (A[i] % 2 != 0) {
 				soma += A[i];
 				impares++;
 			}
 		}
+		
 		double media = soma/impares;
 		System.out.println(media+" é a média.");
 
