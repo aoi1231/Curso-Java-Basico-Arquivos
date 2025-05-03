@@ -27,7 +27,7 @@ public class Exer19 {
 		String output = "";
 		
 		//Recebendo notas
-		for (int i =0; i<10; i++) {
+		for (int i =0; i<nota1.length; i++) {
 			System.out.println("Primeira nota do aluno Nº " + (i+1));
 			nota1[i] = scan.nextDouble();
 			System.out.println("Segunda nota do aluno Nº " + (i+1));
