@@ -33,6 +33,7 @@ public class Exer26 {
 		B[7] = 3;
 		B[8] = 2;
 		B[9] = 1;
+		a
 		
 
 	}
